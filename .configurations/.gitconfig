@@ -1,0 +1,8 @@
+[user]
+	name = Chris Barnes
+	email = contact@barnesian.com
+[core]
+	editor = nano
+	excludesfile = ~/.gitignore
+[push]
+	default = simple
