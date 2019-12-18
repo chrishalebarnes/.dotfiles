@@ -20,7 +20,6 @@ bind ^X cut         main
 bind ^C copytext    main
 bind ^V uncut       main
 bind ^F whereis     main
-bind ^N searchagain main
 bind ^H replace     main
 bind ^Z undo        main
 bind ^_ comment     main
@@ -34,7 +33,7 @@ include "/usr/share/nano/c.nanorc"
 include "/usr/share/nano/css.nanorc"
 include "/usr/share/nano/debian.nanorc"
 include "/usr/share/nano/default.nanorc"
-include "/usr/share/nano/Dockerfile.nanorc"
+#include "/usr/share/nano/Dockerfile.nanorc"
 include "/usr/share/nano/elisp.nanorc"
 include "/usr/share/nano/fortran.nanorc"
 include "/usr/share/nano/gentoo.nanorc"

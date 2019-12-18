@@ -14,3 +14,18 @@ export PROMPT_COMMAND='__dotfiles_update_prompt_command'
 
 export VISUAL=nano
 export EDITOR="$VISUAL"
+
+# Opt out of TUI and CLI tracking: https://consoledonottrack.com/
+export GATSBY_TELEMETRY_DISABLED=1
+export HOMEBREW_NO_ANALYTICS=1
+export DOTNET_CLI_TELEMETRY_OPTOUT=1
+export SAM_CLI_TELEMETRY=0
+export AZURE_CORE_COLLECT_TELEMETRY=0
+export DO_NOT_TRACK=1
+
+if [ -x "$(command -v gcloud)" ]; then
+  gcloud config set disable_usage_reporting true
+fi
+
+# Adds current directory node executables to path
+export PATH=./node_modules/.bin:$PATH
