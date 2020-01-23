@@ -27,6 +27,7 @@ if [ -x "$(command -v gcloud)" ]; then
 fi
 
 export DO_NOT_TRACK=1
+export ADBLOCK=1
 
 # Adds current directory node executables to path
 export PATH=./node_modules/.bin:$PATH
