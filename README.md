@@ -21,7 +21,7 @@ Run the setup script to add the dotfiles sources.
 **Note**: As determined by `$OSTYPE`, Darwin (macOS) based systems will use `~/.bash_profile` while all other systems will use `~/.bashrc`.
 
 ### Plugins
-Plugins have a single entry point that can be sourced called `import.sh`. Any functions included in a plugin should be prefixed with `__<plugin-name>_`. Each active plugin is sourced from `sources/plugins.sh`
+Plugins have a single entry point that can be sourced called `exports.sh`. Any functions included in a plugin should be prefixed with `__<plugin-name>_`. Each active plugin is sourced from `sources/plugins.sh`
 
 ### Configurations
 Configurations are sourceable files named after the `$OSTYPE`. There can also be other files like `common.sh` that any `$OSTYPE` configuration can source.

@@ -1,5 +1,5 @@
-source ~/.dotfiles/plugins/colors/import.sh
-source ~/.dotfiles/plugins/dirty/import.sh
-source ~/.dotfiles/plugins/git/import.sh
-source ~/.dotfiles/plugins/reload/import.sh
-source ~/.dotfiles/plugins/versions/import.sh
+source ~/.dotfiles/plugins/colors/exports.sh
+source ~/.dotfiles/plugins/dirty/exports.sh
+source ~/.dotfiles/plugins/git/exports.sh
+source ~/.dotfiles/plugins/reload/exports.sh
+source ~/.dotfiles/plugins/versions/exports.sh
